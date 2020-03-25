@@ -1,20 +1,21 @@
 # Changelog
 
-Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
+Important : if there is an available update without more details in this section, it means there's no new major functionality. This can be a new documentation, or an update of it, translations or minor bugs fix
 
 
-## Février 2020
+## February 2020
 
-Ajout des rafales de vent
+Adding wind gusts
 
-## Janvier 2020
+## January 2020
 
-Possibilité d'utiliser la configuration géographique de Jeedom directement (nécessite le core en 4.0.36 minimum)
+Ability to use Jeedom's geographic configuration directly (requires core in 4.0.36 minimum)
 
-## Juin 2019
+## June 2019
 
-Passage en cronHourly pour réduire les appels
 
-## Mars 2018
+Switch to cronHourly to reduce calls
 
-Refonte de la doc
+## March 2018
+
+Review of the doumentation
