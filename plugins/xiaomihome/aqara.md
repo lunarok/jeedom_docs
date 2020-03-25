@@ -1,71 +1,71 @@
-# Le protocole zigbee Xiaomi Aqara
+# The Xiaomi Aqara zigbee protocol
 
-### Ajout de la passerelle Xiaomi Aqara à Jeedom
+### Adding the Xiaomi Aqara gateway to Jeedom
 
-Une présentation complète de la gamme est disponible ici : [Article de présentation](https://lunarok-domotique.com/plugins-jeedom/xiaomi-home-jeedom/aqara-lumi-xiaomi-smart-home-security/).
+A full presentation of the range is available here: [Presentation article] (https://lunarok-domotique.com/plugins-jeedom/xiaomi-home-jeedom/aqara-lumi-xiaomi-smart-home-security/).
 
-La passerelle Xiaomi est nécessaire pour activer l'API locale, afin que Jeedom puisse communiquer avec ses différents équipements.
+The Xiaomi gateway is necessary to activate the local API, so that Jeedom can communicate with its various devices.
 
-Attention, il faut bien la version Xiaomi Mi Home Security. Pas la version Aqara Homekit qui ne dispose pas d'API et ne permet pas de lier tous les capteurs existants.
+Attention, you need the Xiaomi Mi Home Security version, not the Aqara Homekit version which does not have an API and does not allow all existing sensors to be linked.
 
-**Il faut la gateway en version Chine, la version prise Européenne ne permet pas l'activation du mode développeur.**
+** You need the Chinese version of the gateway, the European version does not allow activation of developer mode. **
 
-**Faites d'abord les manipulations d'activation du mode développeur avant les mises à jour de firmware que proposerait Mi Home. Ne les faites que si ca n'a pas marché à la base ou si c'est déjà activé.**
+** First do the developer mode activation manipulations before the firmware updates that Mi Home would offer. Do them only if it didn't work from the beginning or if it is already activated. **
 
-Pour cela, il faut :
-* ajouter la passerelle dans l'application **Mi Home**,
-* être sur le serveur **China Mainland**,
-* utiliser la langue **Chinese** (oui, du coup des écrans peuvent contenir beaucoup de caractères illisibles à moins de maîtriser le mandarin...),
-* cliquer sur la passerelle pour la sélectionner,
-* cliquer sur les "...",
-* cliquer sur **about**,
-* vous avez alors un **numéro de version**, cliquez dessus de façon répétée jusqu'au message (oui en chinois ça n'aide pas :)) et deux nouvelles options apparaissent,
-* choisissez la première option (nouvellement apparue),
-* activer le bouton switch pour qu'il passe en vert,
-* le mode local est actif et votre passerelle est accessible sur votre réseau local.
+For that you need to:
+* add the gateway in the ** Mi Home ** application,
+* be on the server ** China Mainland **,
+* use the language ** Chinese ** (yes, suddenly screens can contain many illegible characters unless you are fluent in Mandarin ...),
+* click on the gateway to select it,
+* click on the "...",
+* click on ** about **,
+* you then have a ** version number **, click on it repeatedly until the message (yes in Chinese it doesn't help :)) and two new options appear,
+* choose the first option (newly appeared),
+* activate the switch button so that it turns green,
+* local mode is active and your gateway is accessible on your local network.
 
-*Attention* : Sur **iOS** (iPhone), dans la page **about**, il n'y a pas de **numéro de version**. Vous devez cliquer 5 fois dans la partie blanche pour continuer.
+* Attention *: On ** iOS ** (iPhone), in the ** about ** page, there is no ** version number **. You must click 5 times in the white part to continue.
 
-*Attention* : Pour pouvoir envoyer des commandes vers la passerelle, vous devez renseigner son mot de passe sur sa page équipement, dans Jeedom (**Plugins->Protocole domotique->Xiaomi Home**, puis cliquez sur la passerelle que vous avez au préalable créée). Ce mot de passe est visible sur la page où l'on active le **mode développeur**, dans l'application Mi Home.
+* Attention *: To be able to send commands to the gateway, you must enter its password on its equipment page, in Jeedom (** Plugins-> Home automation protocol-> Xiaomi Home **, then click on the gateway you have previously created). This password is visible on the page where you activate the ** developer mode **, in the Mi Home application.
 
-### Création des équipements dans Jeedom
+### Creation of equipment in Jeedom
 
-La **passerelle Xiaomi** va remonter de manière automatique dans Jeedom, les équipements Aqara seront créés automatiquement. Si cela vous semble long, deux choses à savoir :
-* Pour les **capteurs** Aqara, c'est la remontée d'information qui déclenche la création de l'équipement dans Jeedom. La fréquence varie donc en fonction du modèle et de ses caractéristiques. (par exemple : soufflez sur un capteur de température permettra de changer la valeur de la température et remontera donc l'information)
-* Pour les **interrupteurs** et les **boutons** Aqara, il peut être nécessaire de les activer pour avoir la création des commandes. (par exemple : appuyez sur un des boutons)
+The ** Xiaomi gateway ** will automatically appear in Jeedom, Aqara equipment will be created automatically. If that seems long, two things to know:
+* For ** Aqara sensors **, the communication triggers the creation of the equipment in Jeedom. The frequency therefore varies depending on the model and its characteristics. (for example: blow on a temperature sensor will change the temperature value and will therefore bring up the information)
+* For the ** switches ** and ** buttons ** Aqara, it may be necessary to activate them to have the creation of commands. (for example: press one of the buttons)
 
-### Inclusion/Exclusion des capteurs depuis Jeedom
+### Inclusion / Exclusion of sensors from Jeedom
 
-Il est possible de gérer depuis Jeedom les ajouts ou suppression de capteurs de vos gateways.
+It is possible to manage from Jeedom the additions or deletion of sensors of your gateways.
 
-**Inclusion** : pour chaque gateway, un bouton inclusion est disponible sur la page équipement du plugin. En cliquant dessus, la gateway se met en mode inclusion et attend qu'un capteur se présente. Il faudra suivre les manipulations nécessaires pour le capteur à inclure. Le module sera alors ajouter (et visible dans Jeedom mais aussi Mi Home)
+** Inclusion **: for each gateway, an inclusion button is available on the plugin's equipment page. By clicking on it, the gateway goes into inclusion mode and waits for a sensor to appear. It will be necessary to follow the appropriate manipulations for the sensor to be included. The module will then be added (and visible in Jeedom but also Mi Home)
 
-**Exclusion** : pour exclure un capteur, ca se passe sur la page santé du plugin. Un bouton est disponible pour chaque capteur. A noter que l'exclusion ne supprime pas l'équipement dans Jeedom pour des raisons de sécurité. Il faudra le supprimer ensuite.
+** Exclusion **: to exclude a sensor, go to the health page of the plugin. A button is available for each sensor. Note that the exclusion does not remove the equipment in Jeedom for security reasons. It should then be deleted.
 
-### Commandes des équipements compatibles
+### Commands for compatible equipment
 
-Les équipements actuellement compatibles fournissent les informations suivantes :
+Currently compatible equipment provides the following information:
 
-* **Passerelle** : anneau RGB (avec couleur et intensité), capteur de luminosité, jouer les sons enregistrés (0 à 8, 10 à 13, 20+ correspondent aux sons par défaut dans Mi Home, 10000 pour éteindre, 10001 et plus pour les sons personnalisés). [Voir la présentation](https://lunarok-domotique.com/2017/03/mi-smart-gateway-domotique-jeedom/).
-* **Détecteur de mouvement** : Commande statut binaire pour un mouvement détecté, temps d'absence de mouvement, capteur de luminosité.
-* **Détecteur d'ouverture** : Commande statut binaire pour une ouverture, temps d'absence de fermeture.
-* **Capteur température/humidité** : Information de température, humidité (et pression pour la v2).
-* **Bouton Switch** : Commande clic avec pour valeurs click, double_click, long_click_press, long_click_release.
-* **Prise** et **prise murale** : Commande statut binaire avec on et off, état d'utilisation et consommation.
-* **Interrupteur mural** : Commande statut pour chaque interrupteur (click, double_click) et si double, une commande qui donne l'appui simultané.
-* **Interrupteur encastré** (y compris celui avec neutre) : Commande statut binaire avec on et off pour chaque interrupteur.
-* **Cube** : Commande statut du mouvement avec pour valeur move, tap_twice, shake_air, alert, flip90, flip180, free_fall, rotate_right, rotate_left et une commande Rotation avec la valeur en degré du mouvement. [Présentation](https://lunarok-domotique.com/2017/03/aqara-xiaomi-magic-controller-utilisation-dans-jeedom/)
-* **Détecteur de fumée** : Commande Alarme (binaire), Densité fumée (numérique), Visibilité Capteur Optique (numérique %).
-* **Détecteur de gaz** : Commande Alarme (binaire), Densité (numérique).
-* **Détecteur d'eau** : Commande Statut (binaire).
-* **Moteur pour rideau** : Commande statut (string), position (string) et les commandes actions associées.
+* ** Gateway **: RGB ring (with color and intensity), light sensor, play recorded sounds (0 to 8, 10 to 13, 20+ correspond to the default sounds in Mi Home, 10000 to turn off, 10001 and more for custom sounds). [See presentation in French] (https://lunarok-domotique.com/2017/03/mi-smart-gateway-domotique-jeedom/).
+* ** Motion detector **: Binary status command for detected motion, no motion time, brightness sensor.
+* ** Opening detector **: Binary status command for opening, no closing time length.
+* ** Temperature / humidity sensor **: Information on temperature, humidity (and pressure for v2).
+* ** Switch button **: Click command with click, double_click, long_click_press, long_click_release values.
+* ** Socket ** and ** wall socket **: Binary status command with on and off, usage and consumption status.
+* ** Wall switch **: Status command for each switch (click, double_click) and if dual, a command that gives simultaneous press.
+* ** Flush-mounted switch ** (including the one with neutral): Binary status control with on and off for each switch.
+* ** Cube **: Motion status command with the value move, tap_twice, shake_air, alert, flip90, flip180, free_fall, rotate_right, rotate_left and a Rotation command with the value in degrees of movement. [Presentation in French] (https://lunarok-domotique.com/2017/03/aqara-xiaomi-magic-controller-emploi-dans-jeedom/)
+* ** Smoke detector **: Alarm (binary), Density smoke (digital), Optical Sensor Visibility (digital%) command.
+* ** Gas ​​detector **: Alarm (binary), Density (digital) command.
+* ** Water detector **: Status command (binary).
+* ** Motor for curtain **: Status command (string), position (string) and associated action commands.
 
-### D'autres commandes communes
+### Other common commands
 
-Pour tous ces équipements, une commande **Rafraichir** permet de forcer la mise à jour de ses informations dans Jeedom.
+For all this equipment, a ** Refresh ** command allows you to force the refresh of its information in Jeedom.
 
-L'API fournit également l'**état des piles** des équipements. C'est le voltage de la pile qui est retourné. Avec une fiche technique de l'API indiquant qu'elle sera au maximum de 3.2V et logiquement à 2.8V la pile n'est plus utilisable. Dans les faits, ce sont des piles 3V, voici donc les informations fournies dans Jeedom :
+The API also provides the ** battery status ** of the equipment. The battery voltage is returned. With an API technical sheet indicating that it will be at most 3.2V and logically at 2.8V the battery is no longer usable. In fact, these are 3V batteries, so here is the information provided in Jeedom:
 
-* **Voltage** : en commande non visible sur le dashboard par défaut,
-* **Batterie** : en statut standard, mais aussi en commande non visible. Sa valeur est considérée à 100% si supérieure ou égale à 3V, puis décroit à 0% pour 2.8V.
-* **Type de pile** : Le type de pile est indiqué pour chaque équipement sur le récapitulatif.
+* ** Voltage **: on command not visible on the dashboard by default,
+* ** Battery **: in standard status, but also on command not visible. Its value is considered to be 100% if greater than or equal to 3V, then decreases to 0% for 2.8V.
+* ** Battery type **: The battery type is indicated for each item of equipment on the summary.
