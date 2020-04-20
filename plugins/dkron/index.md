@@ -20,31 +20,67 @@ Il n'y a pas de configuration générale.
 
 On créer un équipement et on choisit son type (actions retardées, actions récurrentes, actions planifiées)
 
-Puis on peut choisir un décalage en temps. Il s'exprime en format 00:00:00 pour heures, minutes, secondes. Si c'est juste des secondes, on saisit directement 00, par exemple 35 pour 35s. Si le décalage doit se faire en négatif, on saisit -00:00:00
+#### Configuration d'un équipement "Actions Retardées"
+
+Cet équipement à vocation à proposer X commandes séparées. Chaque commande quand elle est activée sera réellement déclenchée après le délai choisit.
+
+Pour ce type d'équipement, il y a à définir :
+
+* le mode de saisie du décalage : variable ou fixe
+
+* si mode variable : on choisit dans la liste des variables Jeedom laquelle utilisée (elle devra être du format XX pour des secondes, par exemple 30 donnera 30s. Si vous désirez fournir en minutes, ca sera XX:XX. En heures, pareil XX:XX:XX)
+
+* si mode fixe : un compteur permet de choisir la valeur du décalage.
+
+#### Configuration d'un équipement "Actions Récurrentes"
+
+Cet équipement à vocation à proposer un planification récurrente "à la seconde", mais qui peut prendre par exemple la forme de "toutes les 2h30mn40s". Quand la planification s'active, toutes les actions sont déroulées de la première à la dernière.
+
+Pour ce type d'équipement, il y a à définir :
+
+* la planification : via le compteur proposé.
+
+#### Configuration d'un équipement "Actions Planifiées"
+
+Cet équipement à vocation à proposer un planification journalière, via une commande info Jeedom ou saisie manuelle. Quand la planification s'active, toutes les actions sont déroulées de la première à la dernière. Dans ce mode, des conditions basiques sont disponibles en plus.
+
+Pour ce type d'équipement, il y a à définir :
+
+* le mode pour définir l'heure : par commande info ou manuelle
+
+* si mode commande info : il faut choisir la commande et on peut en plus définir un décalage en plus/moins. Par exemple, l'heure du lever du soleil - 5mn. Le décalage se saisit avec le compteur affiché.
+
+* si mode manuel : il faut définir l'heure via le compteur
+
+* jours de la semaine : on peut choisir dans ce mode quels jours la planification sera valable
+
+* semaine paire/impaire : on peut choisir dans ce mode quels jours la planification sera valable
+
+#### Condition et Options envoyées aux commandes
+
+Tous les types d'équipements proposent 2 options de configuration non obligatoire.
+
+* Condition : il est possible de définir une expression qui devra être valide pour chaque déclenchement. Si la condition est fausse, aucune action de l'équipement ne s'éxécutera.
+
+* Options : ce sont les options qui seront passées aux commandes de l'équipement. Par exemple : title="Mon message";message="Message de notification";color="#FF0000"
 
 ### Configuration des actions
 
 Pour chaque action créée, on peut y rattacher une ou plusieurs actions de Jeedom ainsi qu'un scénario facultatif.
 
+#### Condition et Options envoyées aux commandes
+
+Comme au niveau de l'équipement, il est possible de définir une condition et des options envoyées à la commande.
+
+La condition d'une action ne s'applique qu'à la commande. Si on a une condition sur l'équipement et l'action, les deux doivent être vraies.
+
+Les options ne s'appliquent que sur la commande. Elles viennent fusionner avec celles de l'équipement si elles existent. Les valeurs au niveau de la commande prenant l'ascendence.
+
 #### Type d'action
 
-Il faut bien paramétrer le type d'action. Il faut être cohérent avec les actions sélectionnées. Une action couleur permettra de définir une couleur à l'utilisation et de la passer à toutes les commandes sous-jacente. Les actions "autre" ne seront pas gênées.
+Pour les équipements de types planifié ou réccurent, le type d'action ne servira pas.
 
-Si vous choisissez "message", vous avez moyen de passer dans le champ titre les options pour toutes actions. Par exemple : color="ffffff";title="mon titre";select="choix1"
-
-Il faut bien séparer par ; pour que tout soit passer vers les actions déclenchées
-
-#### Condition
-
-Il est possible d'utiliser le champ condition pour valider qu'une expression est vraie pour éxécuter les actions déclenchées
-
-## Fonctionnement
-
-Pour le type action retardée, il s'agit d'utiliser les actions normalement, simplement elles se feront avec le décalage prévu. Par exemple, je créer une action "Extinction Minutée" sur un équipement avec un décalage de 45s. Je sélectionne deux actions extinction de mes lampes. En utilisant "Extinction Minutée" dans un scénario ou sur le dashboard ... mes deux commandes seront éxécuter 45s plus tard.
-
-Pour les actions récurrentes, le champ durée est alors la durée de récursivité. On peut par exemple saisir "45s", une planification sera mise en place et éxécutera toutes les actions créées à l'interval choisit.
-
-Pour l'action planifiée, il faut renseigner la commande donnant une heure quotidienne. Une planification y sera appliquée avec le décalage saisi. Toutes les actions créées seront déclenchées par cette planification.
+Pour les actions retardées, vous pouvez vous en servir pour faire matcher le type avec les actions déclenchées. Exemple choisir un type couleur permettra d'afficher sur le dashboard un choix de couleur qui sera envoyé aux commandes activées. Cette valeur d'option prend l'ascendant sur les options définies sur l'équipement ou la commande.
 
 ## FAQ
 
