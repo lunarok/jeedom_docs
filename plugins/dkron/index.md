@@ -82,6 +82,16 @@ Pour les équipements de types planifié ou réccurent, le type d'action ne serv
 
 Pour les actions retardées, vous pouvez vous en servir pour faire matcher le type avec les actions déclenchées. Exemple choisir un type couleur permettra d'afficher sur le dashboard un choix de couleur qui sera envoyé aux commandes activées. Cette valeur d'option prend l'ascendant sur les options définies sur l'équipement ou la commande.
 
+#### Paramètre
+
+Il y a un paramètre pour les actions qui ne sert que sur le type Action Retardées. C'est un menu déroulant à trois choix :
+
+* Activations Multiples : chaque activation va créer une instance déportée
+
+* Activation Unique : seule la dernière activation sera conservée
+
+* Activations Cumulées : chaque activation rajoutera le temps de délai à la planification
+
 ## FAQ
 
 > Est-ce que le plugin s'appuie sur des API tiers ?
