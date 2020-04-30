@@ -45,3 +45,13 @@ Il y a 2 paramètres accessible sur chaque équipement, avec une valeur par déf
 - Prix (par défaut 0)
 
 - Date d'expiration (par défaut 2199-12-31)
+
+## FAQ
+
+> Est-ce que le plugin s'appuie sur des API tiers ?
+
+Il s'appuie sur les API de Grocy. Sur réseau local si votre instance est locale.
+
+## Changelog
+
+[Voir la page dédiée](changelog.md).
