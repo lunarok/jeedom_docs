@@ -2,6 +2,14 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## Mai 2020
+
+Les AP AIMesh sont trouvés automatiquement, pas besoin de saisir leurs adresses en configuration
+
+Ajout d'une source supplémentaire pour le statut online ou non
+
+Plus de connexion aux AP AIMesh, le RSSI est fourni par le routeur principal
+
 ## Avril 2020
 
 Ajout des AP AImesh
