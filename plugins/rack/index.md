@@ -28,6 +28,8 @@ Pour chaque équipement, il faut préciser :
 
 - si c'est un switch Netgear, le mot de passe de l'interface
 
+- si c'est un Smart PDU Intellinet en version 1.0.4 il faut remplir user et password (en dessous il faut laisser les champs vides)
+
 ## FAQ
 
 > Est-ce que le plugin s'appuie sur des API tiers ?
