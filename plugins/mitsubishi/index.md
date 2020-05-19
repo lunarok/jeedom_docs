@@ -42,11 +42,15 @@ Pour une PAC (4 équipements sont créés : la PAC, le module ECS, le module Zon
 
  - éteindre le mode forcé du chauffage de l'eau (sur le module ECS)
 
- - allumer/éteindre/statut de la PAC (sur le modulee PAC)
+ - allumer/éteindre/statut de la PAC (sur le module PAC)
 
- - statut online  (sur le modulee PAC)
+ - statut online  (sur le module PAC)
 
- - statut vacances (sur le modulee PAC)
+ - statut vacances (sur le module PAC)
+ 
+ - informations de conso sur la journée (sur le module PAC)
+ 
+ - possibilité d'utiliser le mode climatisation pour les PAC capables
 
 Pour une climatisation :
 
