@@ -51,6 +51,8 @@ Pour une PAC (4 équipements sont créés : la PAC, le module ECS, le module Zon
  - informations de conso sur la journée (sur le module PAC)
  
  - possibilité d'utiliser le mode climatisation pour les PAC capables
+ 
+ - DJU Chaud et Réfrigération
 
 Pour une climatisation :
 
