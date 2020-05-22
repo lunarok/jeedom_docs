@@ -74,6 +74,8 @@ Il y a 2 paramètres accessible sur chaque équipement, avec une valeur par déf
 
 - Date d'expiration (par défaut 2199-12-31)
 
+- Nombre de jours pour l'alerte de date d'expiration (par défaut 3)
+
 ## FAQ
 
 > Est-ce que le plugin s'appuie sur des API tiers ?
