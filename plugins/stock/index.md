@@ -12,15 +12,33 @@ Et pour vos placards, bonus Jeedom saura vous alertez de données périssables. 
 
 ## Installation de Grocy
 
-Pour installer Grocy, plusieurs méthodes sont disponibles :
+Pour installer Grocy, plusieurs méthodes sont disponibles (sur un serveur web, en docker ou application windows) :
 
 https://github.com/grocy/grocy#how-to-install
 
-Pour saisir vos denrées en scannant les codes barres, une application compagnion de Grocy existe :
+Pour saisir vos denrées en scannant les codes barres, deux possibilités :
+
+L'application mobile Grocy : https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy
+
+Elle permet de retrouver toutes vos infos et faire vos ajouts/retraits par code barre
+
+La bascule entre les modes consommation/ajout de produit se fait alors directement à l'écran de capture, d'un simple clic
+
+En cas de nouveau code barre, il vous demandera de l'associer à un produit existant
+
+Il existe aussi une application compagnion de Grocy qui en cas de code barre inconnu ira chercher une référence dans OpenFoodFacts :
 
 https://barcodebuddy-documentation.readthedocs.io/en/latest/
 
-Barcode Buddy dispose d'une application mobile permettant le scan de vos produits en direct. Il permet d'utiliser également les lecteurs de code barre USB ou bluetooth.
+Barcode Buddy dispose d'une application mobile permettant le scan de vos produits en direct
+
+En cas de nouveau code barre, il permet de faire une recherche dans OpenFactFoods et trouver le produit. L'association étant faite plus tard.
+
+Pour passer d'un mode à l'autre, il nécessite d'imprimer des codes barres spécifiques.
+
+Les deux applications permettent d'utiliser la caméra du téléphone ou un lecteur séparé (Grocy en direct permet aussi d'utiliser un lecteur physique attaché au serveur exécutant Grocy)
+
+* Avis Personnel * L'application mobile Grocy est mieux faite, contient plus d'informations sur Grocy (en gros, pour suivre votre Grocy sur téléphone, de toute facon vous en aurez besoin). Et après essais, le mode de saisie est plus "naturel" avec ce changement de consommation/ajout directement visible sur l'écran. L'association code barre et produit est plus simple aussi. Il faut juste penser à avoir saisi ses produits à l'avance, mais la recherche dans OpenFoodFacts n'apporte pas grand chose.
 
 ## Configuration
 
