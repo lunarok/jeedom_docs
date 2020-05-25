@@ -124,6 +124,18 @@ Il y a 3 paramètres accessible sur chaque équipement, avec une valeur par déf
 
 - Ajout de tous les produits sous leur seuil
 
+- Enlever tous les produits de la liste
+
+### Equipement général Grocy
+
+- Liste des produits en alerte de stock (à 0)
+
+- Liste des produits en dessous de leur seuil
+
+- Liste des produits ayant du stock périmé
+
+- Liste des produits ayant du stock arrivant à date
+
 ## FAQ
 
 > Est-ce que le plugin s'appuie sur des API tiers ?
