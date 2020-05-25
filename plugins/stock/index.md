@@ -58,6 +58,8 @@ Il n'y a pas de scan à lancer, le plugin utilise le cron 1mn de Jeedom pour ré
 
 Les équipements sont automatiquement créés lors du scan de Grocy par Jeedom. Chaque produit est créé comme un équipement Jeedom avec les commandes ci-dessous disponible :
 
+Informations sur le stock :
+
 - Quantité en stock
 
 - Quantité ouverte
@@ -66,11 +68,15 @@ Les équipements sont automatiquement créés lors du scan de Grocy par Jeedom. 
 
 - Statut binaire si le stock est inférieur au seuil minimum
 
+Informations relatives à la date d'expiration :
+
 - Prochaine date d'expiration
 
 - Statut binaire si des produits périmés sont présents
 
 - Statut binaire d'alerte si des produits seront périmés dans moins de X jours (par défaut 3 jours, paramètre de configuration sur l'équipement)
+
+Les commandes relatives à la manipulation du stock :
 
 - Ajout unitaire
 
@@ -85,6 +91,20 @@ Les équipements sont automatiquement créés lors du scan de Grocy par Jeedom. 
 - Prix à utiliser pour les ajouts (commande action pour le définir, comme info pour le récupérer) : va modifier le paramètre de configuration de l'équipement sur utilisation
 
 - Date d'expiration à utiliser pour les ajouts (commande action pour le définir, comme info pour le récupérer) : va modifier le paramètre de configuration de l'équipement sur utilisation
+
+Des informations relatives aux listes de courses :
+
+- si le produit est dans une liste (contient le nom de la liste)
+
+- la quantité saisie dans cette liste
+
+- une action select pour ajouter le produit à une liste
+
+Des informations générales :
+
+- membre d'un groupe de produits (retourne le nom du groupe si oui)
+
+- le nom du produit (pour faciliter l'utilisation en scénario)
 
 Il y a 2 paramètres accessible sur chaque équipement, avec une valeur par défaut si non remplie (ils servent en cas d'ajout de stock) :
 
