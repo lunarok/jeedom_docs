@@ -136,6 +136,10 @@ Il y a 3 paramètres accessible sur chaque équipement, avec une valeur par déf
 
 - Liste des produits ayant du stock arrivant à date
 
+- Rafraichir : lance la synchronisation avec Grocy
+
+- Synchronisation des batteries : va créer dans Grocy les batteries présentes dans Jeedom, en indiquant en description le type de batteries et leur charge en %. Mais aussi pour les batteries existantes, il va enregistrer dans Jeedom si une recharge/changement a été indiqué dans Grocy.
+
 ## FAQ
 
 > Est-ce que le plugin s'appuie sur des API tiers ?
