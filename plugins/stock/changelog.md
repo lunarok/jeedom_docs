@@ -2,6 +2,12 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## 30 Mai 2020
+
+Ajout d'une commande de purge des équipements de produits supprimés
+
+Ajout d'une commande mettant à jour les produits avec des infos de OpenFoodFacts
+
 ## 25 Mai 2020
 
 Ajout de l'info membre d'un groupe de produit
