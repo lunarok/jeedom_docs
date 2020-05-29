@@ -140,6 +140,11 @@ Il y a 3 paramètres accessible sur chaque équipement, avec une valeur par déf
 
 - Synchronisation des batteries : va créer dans Grocy les batteries présentes dans Jeedom, en indiquant en description le type de batteries et leur charge en %. Mais aussi pour les batteries existantes, il va enregistrer dans Jeedom si une recharge/changement a été indiqué dans Grocy.
 
+- Supprimer les équipements absents de Grocy : permet de supprimer dans Jeedom les équipements pour des produits qui n'existeraient plus dans Grocy
+
+- Remplir les informations complémentaire depuis OpenFoodFacts : pour chaque produit avec un code-barre valide, cela va renseigné des userfields dans Grocy et les commandes locales (récupère les labels, les ingrédients, les allergènes et l'indice de qualité nutritionnelle)
+
+
 ## FAQ
 
 > Est-ce que le plugin s'appuie sur des API tiers ?
