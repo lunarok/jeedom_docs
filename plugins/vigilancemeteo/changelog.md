@@ -2,9 +2,14 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## 29 mai 2020
+
+Changement des noms des templates utilisateur de xxxx_user.html en custom.xxxx.html 
+La mise à jour du plugin sur une version de Jeedom à partir de la 4.0.56 nécessite la copie des fichiers xxxx_user.html en custom.xxxx.html
+
 ## Février 2020
 
-Ajoput des alertes de GDACS
+Ajout des alertes de GDACS
 
 ## Janvier 2020
 
