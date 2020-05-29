@@ -151,6 +151,8 @@ Il y a 3 paramètres accessible sur chaque équipement, avec une valeur par déf
 
 Il s'appuie sur les API de Grocy. Sur réseau local si votre instance est locale.
 
+Une commande unique utilise également l'API de OpenFoodFacts.org
+
 ## Changelog
 
 [Voir la page dédiée](changelog.md).
