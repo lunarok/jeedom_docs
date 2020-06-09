@@ -40,6 +40,8 @@ Les paramètres à saisir :
 
 * Port : le port de Jeedom (80 pour du http standard)
 
+Un paramètre supplémentaire permet d'intégrer une station météo en protocole Ecowitt (toujours en customized)
+
 ## Informations fournies
 
 Voici les informations disponibles :
@@ -49,6 +51,8 @@ Voici les informations disponibles :
 * Température Extérieure
 
 * Confort Humidité Extérieure (par calcul)
+
+* Humidex (par calcul, indice de confort chaleur)
 
 * Point de Rosée
 
@@ -69,6 +73,8 @@ Voici les informations disponibles :
 * Pluie 24h
 
 * Radiation Solaire
+
+* Eclairement (par calcul)
 
 * UV Index
 
