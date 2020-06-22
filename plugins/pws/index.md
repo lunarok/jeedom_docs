@@ -40,7 +40,11 @@ Les paramètres à saisir :
 
 * Port : le port de Jeedom (80 pour du http standard)
 
-Un paramètre supplémentaire permet d'intégrer une station météo en protocole Ecowitt (toujours en customized)
+Un paramètre supplémentaire permet d'intégrer une station météo en protocole Ecowitt (toujours en customized). Celui-ci peut être utilisé pour une seule station, il permet de récupérer des valeurs de capteurs supplémentaires à la station (que l'on ne peut pas avoir avec le protocole Wunderground)
+
+Dans le cas d'Ecowitt, un paramètre change :
+
+* Path : le path de l'API pws du plugin, /{jeedom}/plugins/pws/core/api/ecowitt.php
 
 ## Informations fournies
 
