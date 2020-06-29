@@ -73,14 +73,12 @@ Les paramètres disponibles :
 
 Si vous voulez saisir plusieurs détecteurs de mouvement, il faut bien mettre && entre chaque dans le champ.
 
-Sur détection d'un mouvement, la lumière sera déclenchée pour le mode courant, SAUF :
+Sur détection d'un mouvement, la lumière sera allumée, SAUF :
 
   - si la luminosité est suffisante
   
-  - si l'on est dans une période après extinction manuelle
-  
-  - si on est dans le mode "Off"
-  
+  - si la lampe n'est pas autorisée en ce moment
+    
 ### Extinction automatique
 
 Ce paramètre permet de mettre en place une vérification automatique que les lumières non nécessaires sont éteintes quand les détecteurs de mouvement n'ont plus de présence. Il est sans effet si le trigger n'est pas renseigné.
@@ -89,7 +87,7 @@ Ce paramètre permet de mettre en place une vérification automatique que les lu
 
 Plusieurs actions sont disponibles, des classiques : luminosités, on, off, température, couleur. Elles sont envoyées à toutes les lumières de manière normales.
 
-Le toggle : lui envoie un off à toutes les lumières, si AU MOINS 1 lumière est allumée
+Le toggle : lui envoie un OFF à toutes les lumières, si AU MOINS 1 lumière est allumée. Sinon c'est un ON
 
 Le "Mode Courant" : active le mode défini avec (Mode Select) -> c'est ce mode qui est lancé par les détecteurs de mouvement
 
