@@ -10,11 +10,13 @@ Pour les Google Home, il permet aussi de récupérer les alarmes et timers, l'ac
 
 ## Configuration
 
-Le plugin dispose d'une page de configuration pour entrer un token d'authentification.
+Le plugin dispose d'une page de configuration pour entrer vos identifiants Google pour récupérer les tokens Google Home.
 
 Pour trouver ce token : https://gist.github.com/rithvikvibhu/1a0f4937af957ef6a78453e3be482c1f
 
 Pour chaque équipement créé manuellement, il faut indiquer si c'est un Google Home ou Chromecast, ainsi que son IP.
+
+Pour les Google Home, un champ "Nom dans Google Home" est à remplir, il permet de récupérer le token d'accès à l'API locale. Le nom est visible dans Google Home ou dans les logs du plugin en mode debug quand on sauvegarde la configuration.
 
 Les périphériques Bluetooth sont créés automatiquement.
 
