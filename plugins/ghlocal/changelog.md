@@ -5,7 +5,15 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 ## Version juillet 2020
 
-Méthode de récupération des token en automatique
+Méthode de récupération des token en automatique (Google Hub)
+
+Ajout d'un périphérique Bluetooth à la main possible (pour scan par Google Hub)
+
+Nouveaux types de périphériques : Android TV, Android ADB
+
+Android TV permet d'afficher des notifications avec l'appli Pipup
+
+Android ADB permet d'envoyer des commandes par ADB aux Android sur le réseau
 
 ## Version octobre 2019
 
