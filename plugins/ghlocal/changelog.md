@@ -9,6 +9,8 @@ Méthode de récupération des token en automatique (Google Hub)
 
 Ajout d'un périphérique Bluetooth à la main possible (pour scan par Google Hub)
 
+Ajout de la commande URL Jeedom pour afficher Jeedom sur un CC via autologin interne
+
 Nouveaux types de périphériques : Android TV, Android ADB
 
 Android TV permet d'afficher des notifications avec l'appli Pipup
