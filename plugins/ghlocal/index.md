@@ -38,6 +38,8 @@ Jouer un Fichier : permet de lancer un média supporté par le GH/Chromecast (au
 
 Ouvrir une URL : permet d'afficher un site sur un GH/Chromecast avec écran (ou lire une vidéo youtube)
 
+Ouvrir une URL Jeedom : permet d'afficher Jeedom sur un GH/Chromecast avec écran (et de le controler si cet écran est tactile comme le Nest Hub)
+
 Commande Scénario : est prévue pour être utilisée en scénario sur les commandes report et notification de caméra
 
 Radio : permet de lire une des radios, c'est une commande de type select avec une liste prédéfinie
@@ -71,6 +73,19 @@ Rafraichir : standard Jeedom
 
 Redémarrer : pour redémarrer votre GH
 
+Les Android TV :
+
+Commande notification : avec titre et message. Titre et Message correspondent aux deux champs de l'api pipup. IL est possible de saisir les autres en utilisant le champ titre. Il faut alors saisir par exemple :
+title=Mon Titre,duration=42,position=2
+Plus d'infos sur les champs : https://github.com/rogro82/pipup
+
+Les Android ADB, pour vos Android sur lesquels vous avez activer les commandes ADB via le réseau :
+
+- Select Commande : qui permet de choisir une commande prédéfinie (le plugin vient avec une dizaine, mais un modal vous permet d'en ajouter, qui seront alors dispo sur tous les équipements Android ADB)
+
+- Commande spécfique : de type message, vous pouvez y saisir une commande à envoyer
+
+- Commande info : contient le retour de la dernière commande adb éxécuter
 
 Et les périphériques Bluetooth scannés par au moins une GH se voient dotés d'une commande RSSI par Google Home à portée. On peut ainsi obtenir le RSSI relatif d'un objet bluetooth par rapport à plusieurs points correspondant aux GH. Une commande générale "Visible" est positive (1) si au moins un des Google Home trouve le périphérique dans les 5 mns passées, elle est nulle si aucun Google Home ne le détecte dans les 5 dernières minutes.
 
