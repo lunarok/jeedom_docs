@@ -103,6 +103,10 @@ Pour les fichiers, il s'agit de MP3, MP4, PNG. Plus les URL de site et Youtube.
 
 Toutes les 5 mns par défaut (voir le tableau des cron utilisés par le plugin sur la page de configuration générale plugin)
 
+> Je n'arrive pas à faire fonctionner le scan des Google Home, je suis sous Debian Stretch (9) ?
+
+Les scripts utilisés nécessitent une version de golang non présente en Stretch. Il est préférable de passer sur la dernière Debian Stable, à savoir en 2020 Debian Buster.
+
 ## Changelog
 
 [Voir la page dédiée](changelog.md).
