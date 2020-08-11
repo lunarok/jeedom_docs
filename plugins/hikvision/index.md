@@ -16,17 +16,45 @@ Il permet de récupérer :
 
 - l'alarme locale
 
-Attention, toutes les commandes ne sont pas disponibles sur toutes les caméras
+- la détection de mouvement PIR
 
-Le protocole existe dans certaines caméras "clone" Hikvision sans garantie
+- la détection de zone
+
+Attention, toutes les commandes ne sont pas disponibles sur toutes les caméras, cela dépend des caractéristiques de votre caméra/NVR.
+
+Le protocole existe dans certaines caméras "clone" Hikvision sans garantie.
 
 Pour être sûr de bien recevoir les notifications, pensez à vérifier vos configurations Hikvision et que les différentes détections sont bien actives pour votre modèle.
 
+Deux commandes permettent de connaitre l'URL Snapshot et RTSP utilisées.
+
+Une dernière commande sert à envoyer un snapshot pour les scénarios.
+
 ## Configuration
 
-Le plugin ne comporte pas de configuration générale.
+#### Configuration général du plugin
 
-Il faut configurer l'adresse, l'utilisateur et le mot de passe de la caméra Hikvision dans l'équipement. A noter qu'un équipement dans le plugin Caméra est créé si la Hikvision n'y est pas encore présente.
+Le plugin propose plusieurs paramètres sur la page de configuration générale :
+
+- des paramètres d'affichage (qui servent à modifier la valeur par défaut pour toutes les caméras, sauf si le paramètre est défini sur l'équipement de facon spécifique)
+
+- l'expression qui servira à répondre aux interactions
+
+#### Configuration des équipements
+
+Il faut configurer l'adresse, l'utilisateur et le mot de passe de la caméra Hikvision dans l'équipement.Il faut aussi indiquer si c'est une caméra ou un NVR (et dans ce cas cas, indiqué le channel)
+
+Des paramètres d'affichage sont présents sur l'équipement (les mêmes que sur la configuration générale, ils prévalent)
+
+#### Configuration des caméras
+
+Suivant les modèles, il faut bien activer les notifications vers "Centre de surveillance" sur 3 zones :
+
+- Système : Sécurité doit être sur digest/basic et vous devez créer un utilisateur avec au moins les droits Centre de Surveillance
+
+- Réseau, Avancé : l'onglet Protocole d'intégration doit être en digest/basic aussi avec l'utilisateur présent
+
+- Evènement : chaque type d'évènement de la caméra, il faut bien configurer qu'il est actif et notifier vers le Centre de Surveillance
 
 ## FAQ
 
