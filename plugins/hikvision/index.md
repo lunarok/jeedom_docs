@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Ce plugin permet de lire les trames émises par les caméras Hikvision en cas d'évènement.
+Ce plugin permet de lire les trames émises par les caméras Hikvision en cas d'évènement. Mais aussi de visualiser les caméras depuis Jeedom et envoyer les snapshot en notifications.
 
 Il permet de récupérer :
 
@@ -62,6 +62,9 @@ Suivant les modèles, il faut bien activer les notifications vers "Centre de sur
 
 Non, le plugin écoute les trames émises par les caméras sur le réseau local (celles qui servent au Centre de Surveillance Hikvision)
 
+> Est-ce que le plugin permet d'enregistrer les vidéos ?
+
+Non, le plugin ne remplace pas un NVR que ce soit via une appliance physique ou un logiciel tiers de gestion de CCTV (Zoneminder, Shinobi, Moonfire ...)
 
 > Quelles caméras sont compatibles ?
 
