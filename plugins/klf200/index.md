@@ -28,6 +28,8 @@ Le plugin nécessite deux paramètres à saisir sur la page de configuration du 
   
   * le mot de passe du KLF200 (celui utilisé pour le Wifi)
   
+  * commandes à utiliser pour allumer et éteindre le KLF200 (en cas de bug sur la communication, le plugin utilisera ces commandes pour relancer le KLF)
+  
 Ensuite, un bouton scan est disponible : il créera chaque équipement trouvé sur le KLF200 + un équipement global "Window" si au moins une a été trouvée (pareil pour les stores)
 
 ### Configuration des équipements
