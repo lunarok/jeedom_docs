@@ -6,6 +6,8 @@ KLF200 est un boitier de chez Velux permettant d'y associer des périphériques 
 
 C'est cette dernière qui est utilisée par Jeedom et permettre ainsi de piloter des appareils IO Homecrontrol en local.
 
+Le plugin permet de controler : "Window", "Blind", "RollerShutter", "GarageDoor", "Awning", "Blade", "Light", "Switch"
+
 ## Configuration
 
 ### Configuration du KLF200
