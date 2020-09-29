@@ -4,6 +4,10 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 ## Version avril 2020
 
+Ajout du toggle sur les lampes
+
+## Version avril 2020
+
 Ajout des modèles Duo, Vintage, Door et 3EM
 
 ## Version février 2020
