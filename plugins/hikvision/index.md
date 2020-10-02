@@ -36,7 +36,13 @@ Une dernière commande sert à envoyer un snapshot pour les scénarios.
 
 Le plugin propose plusieurs paramètres sur la page de configuration générale :
 
-- des paramètres d'affichage (qui servent à modifier la valeur par défaut pour toutes les caméras, sauf si le paramètre est défini sur l'équipement de facon spécifique)
+- rafraichissement d'affichage (qui servent à modifier la valeur par défaut de 2s pour toutes les caméras, sauf si le paramètre est défini sur l'équipement de facon spécifique)
+
+- enregistrement continu
+
+- répertoire de sauvegarde (par défaut /data du plugin)
+
+- nombre de jours de rétention (par défaut 2)
 
 - l'expression qui servira à répondre aux interactions
 
@@ -44,7 +50,15 @@ Le plugin propose plusieurs paramètres sur la page de configuration générale 
 
 Il faut configurer l'adresse, l'utilisateur et le mot de passe de la caméra Hikvision dans l'équipement.Il faut aussi indiquer si c'est une caméra ou un NVR (et dans ce cas cas, indiqué le channel)
 
-Des paramètres d'affichage sont présents sur l'équipement (les mêmes que sur la configuration générale, ils prévalent)
+Des paramètres sont disponibles pour chaque caméra (les mêmes que sur la configuration générale, ils prévalent) :
+
+- rafraichissement d'affichage (2 secondes par défaut)
+
+- enregistrement continu
+
+- répertoire de sauvegarde (par défaut /data du plugin)
+
+- nombre de jours de rétention (par défaut 2)
 
 #### Configuration des caméras
 
