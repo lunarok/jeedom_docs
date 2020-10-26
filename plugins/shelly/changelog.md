@@ -8,6 +8,8 @@ Ajout du toggle sur les lampes
 
 Suppression du ping et utilisation du code retour
 
+Suppression du nodejs externe pour récupérer les retours des Shelly
+
 ## Version avril 2020
 
 Ajout des modèles Duo, Vintage, Door et 3EM
