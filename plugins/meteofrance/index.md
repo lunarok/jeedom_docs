@@ -12,4 +12,9 @@ Le plugin ne comporte pas de configuration générale.
 
 ### Configuration d'un équipement
 
-### Paramètres
+Le plugin nécessite de choisir une localisation dans le menu déroulant. Le ménu comporte la localisation de Jeedom et celles venant du plugin Localisations et Trajets.
+
+
+## Changelog
+
+[Voir la page dédiée](changelog.md).
