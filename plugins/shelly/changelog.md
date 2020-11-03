@@ -4,9 +4,15 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 ## Version octobre 2020
 
+Ajout du Shelly Uni
+
+Modification du mode d'ajout des actions sur le nouvel EndPoint
+
+## Version octobre 2020
+
 Ajout du toggle sur les lampes
 
-Suppression du ping et utilisation du code retour
+Suppression du ping et utilisation du code retour HTTP pour le test de dispo
 
 Suppression du nodejs externe pour récupérer les retours des Shelly
 
