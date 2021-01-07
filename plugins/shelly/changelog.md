@@ -2,6 +2,9 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## Version janvier 2021
+
+Ajout du mode CCT pour les Shelly RGBW
 
 ## Version décembre 2020
 
