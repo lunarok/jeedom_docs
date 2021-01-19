@@ -107,6 +107,10 @@ Toutes les 5 mns par défaut (voir le tableau des cron utilisés par le plugin s
 
 Les scripts utilisés nécessitent une version de golang non présente en Stretch. Il est préférable de passer sur la dernière Debian Stable, à savoir en 2020 Debian Buster.
 
+> Je n'arrive pas à faire fonctionner le scan dans un Docker ?
+
+Les scripts utilisés pour se connecter au Google Play Services posent des difficultés en docker à cause de l'identification matérielle. Il est alors possible d'activer l'option sur la page de configuration pour avoir le token mis à jour par API. Et il faut alors déployer le script get_tokens.py du répertoire resources sur un autre serveur, le lancer en cron et envoyer le résultat par api via https://jeedom/plugins/ghlocal/core/api/jeeGHlocal.php?apikey=...&token=...
+
 ## Changelog
 
 [Voir la page dédiée](changelog.md).
