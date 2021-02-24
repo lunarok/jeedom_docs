@@ -46,7 +46,7 @@ Les paramètres à saisir :
 
 * Port : le port de Jeedom (80 pour du http standard)
 
-![Illustration](images/Config_Wunderground.png?raw=true "Mode Wunderground")
+![Illustration](images/Config_Wunderground2.png?raw=true "Mode Wunderground")
 
 Un paramètre supplémentaire permet d'intégrer une station météo en protocole Ecowitt (toujours en customized). Celui-ci peut être utilisé pour une seule station, il permet de récupérer des valeurs de capteurs supplémentaires à la station (que l'on ne peut pas avoir avec le protocole Wunderground)
 
@@ -143,7 +143,7 @@ Un capteur d'humidité de sol permet de gérer un arrosage automatique de façon
 
 ### Configuration d'une station dans le cas d'utilisation de capteurs additionnels
 
-![Illustration](images/Config_Ecowitt.png?raw=true "Mode Ecowitt")
+![Illustration](images/Config_Ecowitt2.png?raw=true "Mode Ecowitt")
 
 Il faut utiliser WS View pour configurer votre station météo via le menu "Weather Services" / "Customized"
 
