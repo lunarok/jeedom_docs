@@ -42,7 +42,7 @@ Les paramètres à saisir :
 
 * Station ID : ce que vous voulez, si vous voulez utilisez plusieurs stations, il faut bien que cet ID soit unique
 
-* Station Key : la clef API du plugin pour Jeedom
+* Station Key : la clef API du plugin pour Jeedom 
 
 * Port : le port de Jeedom (80 pour du http standard)
 
