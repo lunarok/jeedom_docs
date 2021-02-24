@@ -140,6 +140,8 @@ Un capteur d'humidité de sol permet de gérer un arrosage automatique de façon
 
 ### Configuration d'une station dans le cas d'utilisation de capteurs additionnels
 
+![Illustration](Config_Ecowitt.png?raw=true "Illustration")
+
 Il faut utiliser WS View pour configurer votre station météo via le type "Customized"
 
 Les paramètres à saisir :
