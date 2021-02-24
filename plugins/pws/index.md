@@ -16,7 +16,11 @@ Les stations météo qui utilisent WS View se trouvent sous plusieurs noms de ma
 
 [Ventus W830](https://amzn.to/2wacIWU)
 
-[Froggit](https://www.amazon.fr/Froggit-DP1500-Station-syst%C3%A8me-Centre/dp/B07YDG97XF/ref=sr_1_35?)
+[Froggit Station météo](https://www.amazon.fr/Froggit-DP1500-Station-syst%C3%A8me-Centre/dp/B07YDG97XF/ref=sr_1_35?)
+
+[Froggit Statio nmétéo avec écran](https://www.amazon.fr/Froggit-HP1000SE-Internet-Station-Serveur/dp/B07ZJK8644/ref=sr_1_2?)
+
+![Illustration](images/Stations.png?raw=true "Exemples de Stations météo")
 
 ## Configuration
 
@@ -26,7 +30,7 @@ Le plugin ne comporte pas de configuration générale.
 
 ### Configuration d'un équipement
 
-Il faut utiliser WS View pour configurer votre station météo via le type "Customized"
+Il faut utiliser WS View pour configurer votre station météo via le menu "Weather Services" / "Customized"
 
 Les paramètres à saisir :
 
@@ -41,6 +45,8 @@ Les paramètres à saisir :
 * Station Key : la clef API du plugin pour Jeedom
 
 * Port : le port de Jeedom (80 pour du http standard)
+
+![Illustration](images/Config_Wunderground.png?raw=true "Mode Wunderground")
 
 Un paramètre supplémentaire permet d'intégrer une station météo en protocole Ecowitt (toujours en customized). Celui-ci peut être utilisé pour une seule station, il permet de récupérer des valeurs de capteurs supplémentaires à la station (que l'on ne peut pas avoir avec le protocole Wunderground)
 
@@ -104,9 +110,6 @@ Voici les informations disponibles :
 
 ## Station Froggit
 
-Il existe plusieurs déclinaisons de la station Froggit dont un modèle avec une tablette
-
-[Froggit avec tablette](https://www.amazon.fr/Froggit-HP1000SE-Internet-Station-Serveur/dp/B07ZJK8644/ref=sr_1_2?)
 
 La station Froggit permet de rajouter des capteurs supplémentaires, dont :
 
@@ -140,7 +143,7 @@ Un capteur d'humidité de sol permet de gérer un arrosage automatique de façon
 
 ### Configuration d'une station dans le cas d'utilisation de capteurs additionnels
 
-![Illustration](images/Config_Ecowitt.png?raw=true "Illustration")
+![Illustration](images/Config_Ecowitt.png?raw=true "Mode Ecowitt")
 
 Il faut utiliser WS View pour configurer votre station météo via le menu "Weather Services" / "Customized"
 
