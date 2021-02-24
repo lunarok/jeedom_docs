@@ -16,7 +16,7 @@ Les stations météo qui utilisent WS View se trouvent sous plusieurs noms de ma
 
 [Ventus W830](https://amzn.to/2wacIWU)
 
-Les Froggit semblent aussi être une variante.
+[Froggit](https://www.amazon.fr/Froggit-DP1500-Station-syst%C3%A8me-Centre/dp/B07YDG97XF/ref=sr_1_35?)
 
 ## Configuration
 
@@ -29,6 +29,8 @@ Le plugin ne comporte pas de configuration générale.
 Il faut utiliser WS View pour configurer votre station météo via le type "Customized"
 
 Les paramètres à saisir :
+
+* Protocole : Wunderground
 
 * Server IP : IP de Jeedom
 
@@ -99,3 +101,55 @@ Voici les informations disponibles :
 * Projection (par calcul basé sur les 4 dernières heures de pression)
 
 * Pile Faible : binaire à 0 quand il n'y a pas d'alerte
+
+## Station Froggit
+
+Il existe plusieurs déclinaisons de la station Froggit dont un modèle avec une tablette
+
+[Froggit avec tablette](https://www.amazon.fr/Froggit-HP1000SE-Internet-Station-Serveur/dp/B07ZJK8644/ref=sr_1_2?)
+
+La station Froggit permet de rajouter des capteurs supplémentaires, dont :
+
+### Capteur intérieur de température et d'humidité 
+
+[Un capteur de température et d'humidité](https://www.amazon.fr/Froggit-DP50-Thermo-hygrom%C3%A8tre-Plusieurs-canaux/dp/B0844K28MJ/ref=sr_1_7?)
+
+Les informations fournies sont : 
+
+* Humidité Intérieure
+
+* Température Intérieure
+
+* Pile Faible : binaire à 0 quand il n'y a pas d'alerte
+
+La configuration consiste à indiquer, via des micro-switchs, un numéro de capteur et l'unité de température choisie (°C ou °F)
+
+### Capteur d'humidité de sol
+
+[Un capteur d'humidité de sol](https://www.amazon.fr/Froggit-DP100-Capteur-Radio-multicanal/dp/B0844KS4B2/ref=sr_1_14?)
+
+Les informations fournies sont : 
+
+* Humidité du sol 
+
+* Voltage de la pile 
+
+Le capteur peut être installé soit en intérieur (bac à fleurs) ou soit en extérieur (jardin, pelouse, massif de fleurs, haie, ...)
+
+Un capteur d'humidité de sol permet de gérer un arrosage automatique de façon plus optimum car celui-ci ne se déclenchera que lorsque le sol en a réellement besoin.
+
+### Configuration d'une station dans le cas d'utilisation de capteurs additionnels
+
+Il faut utiliser WS View pour configurer votre station météo via le type "Customized"
+
+Les paramètres à saisir :
+
+* Protocole : Ecowitt
+
+* Server IP : IP de Jeedom
+
+* Path : le path de l'API pws du plugin, /{jeedom}/plugins/pws/core/api/ecowitt.php
+
+* Port : le port de Jeedom (80 pour du http standard)
+
+* Période de rafraichissement : 16 secondes (minimum)
