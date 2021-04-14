@@ -38,10 +38,6 @@ Le plugin propose plusieurs paramètres sur la page de configuration générale 
 
 - rafraichissement d'affichage (qui servent à modifier la valeur par défaut de 2s pour toutes les caméras, sauf si le paramètre est défini sur l'équipement de facon spécifique)
 
-- enregistrement continu
-
-- répertoire de sauvegarde (par défaut /data du plugin)
-
 - nombre de jours de rétention (par défaut 2)
 
 - l'expression qui servira à répondre aux interactions
@@ -53,10 +49,6 @@ Il faut configurer l'adresse, l'utilisateur et le mot de passe de la caméra Hik
 Des paramètres sont disponibles pour chaque caméra (les mêmes que sur la configuration générale, ils prévalent) :
 
 - rafraichissement d'affichage (2 secondes par défaut)
-
-- enregistrement continu
-
-- répertoire de sauvegarde (par défaut /data du plugin)
 
 - nombre de jours de rétention (par défaut 2)
 
