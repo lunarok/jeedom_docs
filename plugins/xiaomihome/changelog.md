@@ -2,6 +2,10 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## Version juillet 2021
+
+Corrections finales pour passage en Python 3
+
 ## Version avril 2021
 
 Ajout du nouveau spot couleur Yeelight
