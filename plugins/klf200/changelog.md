@@ -4,11 +4,11 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 ## Aout 2021
 
-Ajout du capteur de pluie des fenêtres
+Ajout de la possibilité de faire un set orientation pour les BSO
 
 ## Aout 2020
 
-Ajout de la possibilité de faire un set orientation pour les BSO
+Ajout de la possibilité d'utiliser des commandes Off/On pour faire redémarrer le KLF en cas de bug
 
 ## Février 2020
 
