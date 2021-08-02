@@ -8,7 +8,7 @@ Ajout du capteur de pluie des fenêtres
 
 ## Aout 2020
 
-Ajout de la possibilité d'utiliser des commandes Off/On pour faire redémarrer le KLF en cas de bug
+Ajout de la possibilité de faire un set orientation pour les BSO
 
 ## Février 2020
 
