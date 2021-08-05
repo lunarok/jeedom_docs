@@ -15,6 +15,8 @@ Il vous faudra le scheduler par vos moyens (par exemple en utilisant un flow per
 Il est possile d'ajouter d'autres commandes sur demande.
 De même il est prévu de pouvoir envoyer des infos de Jeedom vers Automate.
 
+[Télécharger le flux ici](Informations.flo)
+
 ## FAQ
 
 > Est-ce que le plugin s'appuie sur des API tiers ?
