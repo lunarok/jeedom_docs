@@ -11,6 +11,8 @@ Ce que permet comme analyse Deepstack :
 - trouver des objets
 - reconnaitre une 'scène'
 
+N'oubliez pas que pour activer un type de reconnaissance dans Deepstack, la bonne variable doit être renseignée dans la commande docker, exemple pour la détection de visage : VISION-FACE=True
+
 Chacune des actions dispose d'une action de type message. Pour l'utiliser, soit vous fournissez dans le champ image le chemin d'une image à analyser, soit vous utilisez cette commande avec un envoi de snapshot par exemple (le champe image devant alors rester vide)
 
 Chacune des actions dispose ensuite d'au moins 2 commandes infos, une pour indiquer si l'API a pu traité l'image (success), les autres donnant accès aux informations de l'API (taux de fiabilité, nom des objets ...)
