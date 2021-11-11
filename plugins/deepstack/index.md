@@ -17,6 +17,9 @@ Chacune des actions dispose d'une action de type message. Pour l'utiliser, soit 
 
 Chacune des actions dispose ensuite d'au moins 2 commandes infos, une pour indiquer si l'API a pu traité l'image (success), les autres donnant accès aux informations de l'API (taux de fiabilité, nom des objets ...)
 
+En complément sur les commandes de reconnaissance de visages et objets, une commande message pour chaque permet de chercher dans les prédictions.
+Par exemple en envoyant "Fred", la commande binaire de résultat indiquera si Fred est bien présent dans les prédictions.
+
 ## Configuration
 
 On créer un équipement par Deepstack qu'on souhaite utiliser, vous pouvez ainsi avoir une seule instance avec tout activé ou plusieurs réparties (pour rappel, Deepstack comme toute reconnaissance d'objet est consommateur en ressource)
