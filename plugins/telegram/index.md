@@ -48,6 +48,12 @@ Les commandes actions permettent d'envoyer des messages. Il est possible de four
 
 * tts : la valeur doit être le chemin d'un fichier audio de type ogg encodé avec opus qui sera notifié en message vocal dans Telegram (sinon un texte mais opus-tools doit être installé)
 
+* snapshot : avec une url de snapshot de camera IP pour envoyer un snapshot
+
+* rtspSnapshot : pour les cameras sans URL de snapshot image, créer une image fixe (nécessite ffmpeg)
+
+* rtspVideo : pour envoyer une courte vidéo de 10s depuis l'url rtsp
+
 * location : la valeur doit être soit une commande geoloc soit "latitude,longitude"
 
 * file : la valeur doit être le path d'un ou plusieurs fichiers
