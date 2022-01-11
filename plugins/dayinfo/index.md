@@ -33,6 +33,10 @@ Ce plugin permet d'obtenir plusieurs types d'équipements qui apportent leurs co
 
 * jour de l'année (0 à 365)
 
+* occurence du jour de la semaine dans le mois (1, 2, 3, 4, 5eme lundi ... du mois)
+
+* dernière occurence du jour de la semaine dans le mois (0 ou 1)
+
 ### Vacances scolaires
 
 * vacances en cours (1 ou 0)
