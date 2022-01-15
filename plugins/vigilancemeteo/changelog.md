@@ -2,6 +2,12 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## 15 janvier 2022##
+
+- Correction du layout v4
+- Rétablissement du fonctionnement des horaires de marées.
+3 nouvelles commandes sont créées. Marée précédente, Marée suivante et Tableau des marées. Elles nécessitent que l'équipement soit resauvegardé pour être créées. Une compatibilité partielle avec les numéros de port de maree.info a été préservée. Les numéros de port sont dans une liste déroulante. Certains ports pour lesquels je n'ai pas trouvé de correspondance exacte ne sont plus sélectionnables. Voir le fichier core/config/PortsMareeInfo.json pour la correspondance. Les champs latitude et longitude sont nécessaires. Merci de communiquer vos corrections éventuelles.
+
 ## 29 mai 2020
 
 Changement des noms des templates utilisateur de xxxx_user.html en custom.xxxx.html 
