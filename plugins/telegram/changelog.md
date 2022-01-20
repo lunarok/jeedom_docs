@@ -4,7 +4,7 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 ## Janvier 2022
 
-Ajout des options snapshot, rtspVideo et rtspSnapshot pour envoyer des images directement (et vidéo de 10s)
+Ajout des options url, snapshot, rtspVideo et rtspSnapshot pour envoyer des images directement (et vidéo de 10s)
 
 ## Mars 2021
 
