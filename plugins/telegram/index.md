@@ -48,6 +48,8 @@ Les commandes actions permettent d'envoyer des messages. Il est possible de four
 
 * tts : la valeur doit être le chemin d'un fichier audio de type ogg encodé avec opus qui sera notifié en message vocal dans Telegram (sinon un texte mais opus-tools doit être installé)
 
+* url : Jeedom va télécharger le fichier fourni en paramètre et l'ajouter à l'envoi Telegram
+
 * snapshot : avec une url de snapshot de camera IP pour envoyer un snapshot
 
 * rtspSnapshot : pour les cameras sans URL de snapshot image, créer une image fixe (nécessite ffmpeg)
