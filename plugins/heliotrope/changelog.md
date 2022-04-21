@@ -2,6 +2,12 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## 21 avril 2022
+Correction des templates mobile et dashboard.
+Centrage vertical des commandes.
+Ajout de paramètres optionnels sur l'équipement: elevationHeight, elevationWidth et azimuthSize pour définir les tailles du graphique de l'élévation et le diamètre de la rose des vents de l'azimut du soleil. 
+
+
 ## 30 janvier 2022
 Remplacement de la rosace d'élévation du soleil par un diagramme sur la journée. En masquant la commande Altitude du Soleil, le diagramme sera masqué.
 Les différentes annotations qui apparaissent sur le diagramme sont masquables en agissant sur les commandes correspodantes.
