@@ -2,6 +2,9 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## Mai 2022
+Mise à jour des calendriers scolaire, 2022-2023 pour les zones France : A,B et C
+
 ## Janvier 2022
 
 Ajout de l'occurence du jour dans le mois et statut dernière occurence du jour dans le mois
