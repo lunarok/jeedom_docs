@@ -2,6 +2,10 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## Version septembre 2022
+
+Ajout de commande pour savoir si un update de firmware est disponible
+
 ## Version mai 2021
 
 Ajout du activate/désactivate sur les clients VPN
