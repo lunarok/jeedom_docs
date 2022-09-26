@@ -2,6 +2,10 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## Septembre 2022
+
+Refonte complète du plugin, toutes les caméras précédentes sont désactivées. Il faut recréer de nouvelles caméras.
+
 ## Octobre 2020
 
 Ajout d'une simple fonction d'enregistrement local
