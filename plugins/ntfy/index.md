@@ -12,6 +12,8 @@ Par exemple, pour un topic mytopic sur ntfy.sh, URL devra être : https://ntfy.s
 
 Sur une instance self-hosted, ca sera par exemple : https://ntfy.self.hosted/mytopic (si l'instance est sur ntfy.self.hosted biensur)
 
+Les champs user et password sont disponible si vous avez mis en place une authentification sur votre instance self-hosted
+
 ### Commandes
 
 Une commande unique est créée, Envoi de message. Le message sera le contenu publié. Le champ title permet de passer les options supportées par Ntfy, en les séparant par un point virgule
