@@ -49,6 +49,8 @@ Le plugin propose plusieurs paramètres sur la page de configuration générale 
 
 Il faut configurer l'adresse, l'utilisateur et le mot de passe de la caméra Hikvision dans l'équipement.Il faut aussi indiquer si c'est une caméra, un portier ou un NVR (et dans ce cas cas, indiqué le channel)
 
+Note importante : les portiers ne sont supportés pour les alarmes que sur une plateforme Intel/AMD
+
 Des paramètres sont disponibles pour chaque caméra (les mêmes que sur la configuration générale, ils prévalent) :
 
 - rafraichissement d'affichage (2 secondes par défaut)
@@ -120,6 +122,12 @@ Les caméras Hikvision qui peuvent émettre des détections vers le centre de su
 Toutes les caméras Hikvision ne proposent pas tous les types de détection (comme le franchissement de ligne)
 
 Des clones Hikvision implémentent aussi ce protocole (ceux qui ont pour but de s'intégrer complètement dans une solution de surveillance full Hikvision)
+
+> Quelles portiers sont compatibles ?
+
+La liste exacte n'est pas connue. Le plugin utilise le SDK officiel d'Hikvision, donc ca devrait en couvrir une majorité.
+
+En revanche, ce même SDK pose une contrainte majeure : il ne fonctionne que sur plateforme Intel/AMD et donc pas sur les plateformes ARM. Rendant la détection des alarmes de portier indisponible sur ARM.
 
 ## Changelog
 
