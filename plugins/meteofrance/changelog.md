@@ -2,6 +2,12 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+#### 04/06/2023 beta
+- Rétablissement des vigilances météo pour la métropole. Les données du site d'archives Météo France sont utilisées. Utilisation d'un cron pour récupérer les données chaque heure entre 6h et 20h. Les données sont fournies pour la France entière.
+- Ajout des commandes de prévisions par heures, moment de la journée et jours en JSON.
+- Remplacement de la Rose des vents par une fléche avec dessous la vitesse du vent et celle des rafales s'il y en a.
+- Ajout de la possibilité de choisir une template pour representer l'équipement. 
+
 #### 24/04/2023 beta
 - Ajout des liens vers la doc pour les versions beta
 - cronTrigger passe en setOnce afin d'être supprimé après son exécution.
