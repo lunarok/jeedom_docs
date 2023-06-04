@@ -3,7 +3,7 @@
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
 #### 04/06/2023 beta
-- Rétablissement des vigilances météo pour la métropole. Les données du site d'archives Météo France sont utilisées. Utilisation d'un cron pour récupérer les données chaque heure entre 6h et 20h. Les données sont fournies par MF pour la France entière au minimum à 6h et 16h.
+- Rétablissement des vigilances météo pour la métropole. Les données du site d'archives Météo France sont utilisées. Utilisation d'un cron pour récupérer les données chaque heure entre 6h et 20h. Les données sont fournies par MF pour la France entière au minimum à 6h et 16h. Les données sont stockées dans le répertoire data du plugin. (Fichiers: CDP_CARTE_EXTERNE.json et les 2 fichiers VIGNETTE_NATIONAL_J_500X500.png VIGNETTE_NATIONAL_J1_500X500.png )
 - Ajout des commandes de prévisions par heures, moments de la journée et jours. Les valeurs de ces commandes sont en JSON. Ces nouvelles commandes sont créées lors de la mise à jour du plugin. 
 - Ajout de widgets pour ces 3 types de commandes. Ces commandes sont utilisables avec leur widget sur les designs. Elles ne sont pas utilisables sur des virtuels car le plugin virtuel en supprimant toutes les " de la valeur pulvérise le JSON. PR sur le plugin virtuel à faire. les widgets ont des paramètres optionnels pour contrôler l'affichage des différentes valeurs.
 - Paramétrage de l'affichage de la prévision de l'heure suivante, du nombre de jours à afficher en moments de la journée et du nombre total de jours.
