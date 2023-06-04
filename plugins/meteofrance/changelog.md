@@ -4,9 +4,12 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 #### 04/06/2023 beta
 - Rétablissement des vigilances météo pour la métropole. Les données du site d'archives Météo France sont utilisées. Utilisation d'un cron pour récupérer les données chaque heure entre 6h et 20h. Les données sont fournies par MF pour la France entière au minimum à 6h et 16h.
-- Ajout des commandes de prévisions par heures, moment de la journée et jours. Les valeurs de ces commandes sont en JSON. Ajout de widgets pour ces 3 types de commandes. Ces commandes sont utilisables avec leur widget sur les designs. Elles ne sont pas utilisables sur des virtuels car le plugin virtuel en supprimant toutes les " de la valeur pulvérise le JSON. PR sur le plugin virtuel à faire.
+- Ajout des commandes de prévisions par heures, moments de la journée et jours. Les valeurs de ces commandes sont en JSON. Ces nouvelles commandes sont créées lors de la mise à jour du plugin. 
+- Ajout de widgets pour ces 3 types de commandes. Ces commandes sont utilisables avec leur widget sur les designs. Elles ne sont pas utilisables sur des virtuels car le plugin virtuel en supprimant toutes les " de la valeur pulvérise le JSON. PR sur le plugin virtuel à faire. les widgets ont des paramètres optionnels pour contrôler l'affichage des différentes valeurs.
+- Paramétrage de l'affichage de la prévision de l'heure suivante, du nombre de jours à afficher en moments de la journée et du nombre total de jours.
 - Remplacement de la Rose des vents par une fléche avec dessous la vitesse du vent et celle des rafales s'il y en a. ( Pour les nostalgiques, la template Rose des vents est fournie. )
-- Ajout de la possibilité de choisir une template pour représenter l'équipement. Templates custom possibles (Le nom du fichier template doit commencer par custom.meteofrance. )
+- Ajout de la possibilité de choisir un template pour représenter l'équipement. Templates custom possibles (Le nom du fichier template doit commencer par custom.meteofrance. ) Ex: custom.meteofrance.Mon template.html
+- Obsolescence des commandes Ces commandes ne sont plus créées. Elles ne sont renseignées par le plugin.
 
 #### 24/04/2023 beta
 - Ajout des liens vers la doc pour les versions beta
