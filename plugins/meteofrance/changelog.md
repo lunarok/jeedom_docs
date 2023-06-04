@@ -9,7 +9,7 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 - Paramétrage de l'affichage de la prévision de l'heure suivante, du nombre de jours à afficher en moments de la journée et du nombre total de jours.
 - Remplacement de la Rose des vents par une fléche avec dessous la vitesse du vent et celle des rafales s'il y en a. ( Pour les nostalgiques, la template Rose des vents est fournie. )
 - Ajout de la possibilité de choisir un template pour représenter l'équipement. Templates custom possibles (Le nom du fichier template doit commencer par custom.meteofrance. ) Ex: custom.meteofrance.Mon template.html
-- Obsolescence des commandes Ces commandes ne sont plus créées. Elles ne sont renseignées par le plugin.
+- Obsolescence des commandes: Météo du Matin, Météo du Midi, Météo du Soir et Météo de la nuit (soit 48 commandes) Ces commandes ne sont plus créées. Elles ne sont plus renseignées par le plugin. Elles sont remplacées par les commandes JSON: Moment de la journée *x* - Json ( logicalId: MeteoInstant*x*Json )
 
 #### 24/04/2023 beta
 - Ajout des liens vers la doc pour les versions beta
