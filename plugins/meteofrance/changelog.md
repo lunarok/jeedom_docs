@@ -11,7 +11,7 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 - Ajout de la possibilité de choisir un template pour représenter l'équipement. Templates custom possibles (Le nom du fichier template doit commencer par `custom.meteofrance.` ) Ex: `custom.meteofrance.Mon template.html`
 - Obsolescence des commandes: Météo du Matin, Météo du Midi, Météo du Soir et Météo de la nuit (soit 48 commandes) Ces commandes ne sont plus créées. Elles ne sont plus renseignées par le plugin. Elles sont remplacées par les commandes JSON: Moment de la journée *x* - Json ( logicalId: MeteoInstant*x*Json )
 - La récupération des valeurs contenues dans le JSON de ces commandes peut se faire avec la fonction `meteofrance::getJsonInfo($cmd_id,$request);`
-- Les commandes Marine et Marée ne sont plus systématiquement crées.
+- Les 23 commandes Marine *xxx* et Marée *xxx* ne sont plus systématiquement créées.
 
 ***
 
