@@ -2,7 +2,7 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
-#### 05/06/2023 beta
+#### 06/06/2023 beta
 - Rétablissement des vigilances météo pour la métropole. Les données du site d'archives Météo France sont utilisées. Utilisation d'un cron pour récupérer les données chaque heure entre 6h et 20h. Les données sont fournies par MF pour la France entière au minimum à 6h et 16h. Les données sont stockées dans le répertoire data du plugin. (Fichiers: CDP_CARTE_EXTERNE.json et les 2 fichiers VIGNETTE_NATIONAL_J_500X500.png VIGNETTE_NATIONAL_J1_500X500.png )
 - Ajout des commandes de prévisions par heures, moments de la journée et jours. Les valeurs de ces commandes sont en JSON. Ces nouvelles commandes sont créées lors de la mise à jour du plugin. 
   - Ajout de widgets pour ces 3 types de commandes. Ces commandes sont utilisables avec leur widget sur les designs. Elles ne sont pas utilisables sur des virtuels car le plugin virtuel en supprimant toutes les " de la valeur pulvérise le JSON. PR sur le plugin virtuel à faire. Les widgets ont des paramètres optionnels pour contrôler l'affichage des différentes valeurs.
@@ -13,6 +13,8 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 - Obsolescence des commandes: Météo du Matin, Météo du Midi, Météo du Soir et Météo de la nuit (soit 48 commandes) Ces commandes ne sont plus créées. Elles ne sont plus renseignées par le plugin. Elles sont remplacées par les commandes JSON: Moment de la journée *x* - Json ( logicalId: MeteoInstant*x*Json )
 - Les 23 commandes Marine *xxx* et Marée *xxx* ne sont plus systématiquement créées. ( Selon `bulletin_cote` dans les détails de la localisation ) 
+- Changement de source Météo France de `/rpcache-aa.meteofrance.com/internet2018client` à `/webservice.meteofrance.com` . Cela rend des commandes obsolètes. Ex: Vitesse, direction et rafales du vent dans les Météo du jour.
+
 
 ***
 
