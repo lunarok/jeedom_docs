@@ -2,6 +2,17 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+#### 12/06/2023 beta
+- Correction du lendemain qui ne s'affichait pas dans les prévisions.
+- Correction des commandes Meteoproba*xxx* La commande MeteoprobaStorm est obsolète.
+- Signalement dans les valeurs des commandes si elles sont obsolétes. Valeur -666 si numérique ou Obsolete command si de type texte.
+- Correction des vigilances si MF publie des infos partielles. Seule la dernière (qui pouvait être partielle) était traitée.
+- Correction des bulles d'aide sur les vigilances. La chronologie des niveaux de vigilance est ajoutée.
+- Contournement de la suppression par le plugin virtuel des " dans les valeurs des commandes. Les widgets de commandes Json peuvent être utilisés pour isoler une information fournie par le plugin. Ex: info de la météo du jour sur un design ...
+- Ajout de la commande Json: VigilanceJson avec l'ébauche de son widget: cmd.info.string.Vigilance.html
+- Correction de la template pour affichage sur mobile.
+
+***
 #### 06/06/2023 beta
 - Rétablissement des vigilances météo pour la métropole. Les données du site d'archives Météo France sont utilisées. Utilisation d'un cron pour récupérer les données chaque heure entre 6h et 20h. Les données sont fournies par MF pour la France entière au minimum à 6h et 16h. Les données sont stockées dans le répertoire data du plugin. (Fichiers: CDP_CARTE_EXTERNE.json et les 2 fichiers VIGNETTE_NATIONAL_J_500X500.png VIGNETTE_NATIONAL_J1_500X500.png )
 - Ajout des commandes de prévisions par heures, moments de la journée et jours. Les valeurs de ces commandes sont en JSON. Ces nouvelles commandes sont créées lors de la mise à jour du plugin. 
