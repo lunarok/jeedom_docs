@@ -2,6 +2,16 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+#### 23/06/2023 beta
+- Les commandes heures, jours et moments ne sont plus vidées quand MF ne répond pas. Warning dans le log.
+- Réduction des requêtes à MF. 1 requête OK / heure. Si NOK essai toutes les 5 minutes
+- Récupération de l'éphéméride 1 fois par jour. Calcul sunrise et sunset si MF HS.
+- Réduction du volume de logs en debug.
+- Rétablissement de la commande Vigilancelist
+- Possibilité d'utiliser l'API vigilance de MF dans la configuration du plugin pour récupérer les vigilances.
+- Correction des templates.
+  
+***
 #### 12/06/2023 beta
 - Correction du lendemain qui ne s'affichait pas dans les prévisions.
 - Correction des commandes Meteoproba*xxx* La commande MeteoprobaStorm est obsolète.
