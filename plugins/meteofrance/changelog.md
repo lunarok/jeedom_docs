@@ -2,6 +2,12 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+
+#### 25/06/2023 beta
+- Divers réglages et mises au point des templates (principalement les templates pour mobile).
+- Ajout du paramètre "Affichage prévisions en version mobile"
+
+***
 #### 23/06/2023 beta
 - Les commandes heures, jours et moments ne sont plus vidées quand MF ne répond pas. Warning dans le log.
 - Réduction des requêtes à MF. 1 requête OK / heure. Si NOK essai toutes les 5 minutes
