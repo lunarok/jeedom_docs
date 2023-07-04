@@ -2,7 +2,10 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+#### 26/06/2023 Stable
+Passage en stable du plugin. Toutes les modifications des versions beta ci-dessous sont inclues.
 
+***
 #### 25/06/2023 beta
 - Divers réglages et mises au point des templates (principalement les templates pour mobile).
 - Ajout du paramètre "Affichage prévisions en version mobile"
