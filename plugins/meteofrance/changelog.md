@@ -2,6 +2,19 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+
+#### 19/07/2023 beta
+- Correction des vigilances lors de l'utilisation de l'API. La date de la dernière interrogation n'était pas mise à jour.
+- Ajout d'un séparateur vertical entre les jours dans les prévisions.
+- Ajout d’icônes pour les intensités de pluie.
+- Correction des svgs de vigilance. ( Commentaires en trop )
+- Suppression de la création de commandes obsolètes. Météo du jour - xxx - Vent,   Météo du Jour - H+1 - Icone
+- Ajout dans la liste des commandes d'un équipement d'un bouton pour supprimer chaque commande.
+- Corrections mineures sur les templates pour les commandes json  cmd.info.string
+- Ajout de la direction du vent Variable avec son icône. Modifications des templates fournies en conséquence. Cela peut entrainer une modification sur vos templates custom.
+- Ajout du % de la couverture nuageuse dans la prévision de l'heure actuelle.
+- Modification de l'URL pour récupérer les clés de l'API Vigilances qui est un peu capricieuse https://portail-api.meteofrance.fr/devportal/apis -> https://portail-api.meteofrance.fr/devportal
+***
 #### 26/06/2023 Stable
 Passage en stable du plugin. Toutes les modifications des versions beta ci-dessous sont inclues.
 
