@@ -5,8 +5,9 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 #### 19/07/2023 beta
 - Correction des vigilances lors de l'utilisation de l'API. La date de la dernière interrogation n'était pas mise à jour.
+- Récupération d'un 4ème fichier des vigilances CDP_TEXTES_VIGILANCE.json A voir si il y a des informations utiles à l'intérieur pour peut-etre renseigner les commandes Alertes qui sont vides depuis un moment.
 - Ajout d'un séparateur vertical entre les jours dans les prévisions.
-- Ajout d’icônes pour les intensités de pluie.
+- Ajout d’icônes pour les intensités de pluie. les icones de pluie sont de couleur rouge quand les previsons de pluie sont désactivées.
 - Correction des svgs de vigilance. ( Commentaires en trop )
 - Suppression de la création de commandes obsolètes. Météo du jour - xxx - Vent,   Météo du Jour - H+1 - Icone
 - Ajout dans la liste des commandes d'un équipement d'un bouton pour supprimer chaque commande.
