@@ -2,7 +2,10 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+#### 18/01/2024 beta
+- Correction des prévisions de pluie dans l'heure qui ne fonctionnent plus depuis le 16 janvier 16h20. 
 
+***
 #### 19/07/2023 beta
 - Correction des vigilances lors de l'utilisation de l'API. La date de la dernière interrogation n'était pas mise à jour.
 - Récupération d'un 4ème fichier des vigilances CDP_TEXTES_VIGILANCE.json A voir si il y a des informations utiles à l'intérieur pour peut-etre renseigner les commandes Alertes qui sont vides depuis un moment.
@@ -15,6 +18,7 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 - Ajout de la direction du vent Variable avec son icône. Modifications des templates fournies en conséquence. Cela peut entrainer une modification sur vos templates custom.
 - Ajout du % de la couverture nuageuse dans la prévision de l'heure actuelle.
 - Modification de l'URL pour récupérer les clés de l'API Vigilances qui est un peu capricieuse https://portail-api.meteofrance.fr/devportal/apis -> https://portail-api.meteofrance.fr/devportal
+
 ***
 #### 26/06/2023 Stable
 Passage en stable du plugin. Toutes les modifications des versions beta ci-dessous sont inclues.
