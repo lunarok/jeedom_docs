@@ -26,7 +26,7 @@ Si un user et password sont existants, il est possible de les saisir.
 
 En plus de la configuration locale, il est possible d'utiliser les API du Cloud Shelly. Cela permettra par exemple d'accéder à des Shelly qui ne sont pas sur le réseau de Jeedom (résidence secondaire, etc)
 
-Dans le cas du Shelly Cloud, pour l'adresse il faut mettre celle du Shelly Cloud. Il faut saisir en plus l'auth_key et l'ID du module Shelly.
+Dans le cas du Shelly Cloud, pour l'adresse il faut mettre celle du Shelly Cloud. Il faut saisir en plus l'auth_key et l'ID du module Shelly. Attention, le fonctionnement en cloud n'est pas fonctionnel pour tous les modules.
 
 Les commandes sont créées automatiquement à la sauvegarde. Pour chaque type, les commandes infos et actions disponibles seront disponibles.
 
