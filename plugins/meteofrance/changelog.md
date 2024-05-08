@@ -1,7 +1,11 @@
 # Changelog
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
+***
+#### 07/05/2024 beta
+- Ajout de widgets affichant la météo sur une horloge. Similaire au plugin horlogeHTC sans les 400ko d'animation de l'horloge.
 
+***
 #### 18/01/2024 beta
 - Correction des prévisions de pluie dans l'heure qui ne fonctionnent plus depuis le 16 janvier 16h20. 
 
