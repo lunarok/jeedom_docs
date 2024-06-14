@@ -3,7 +3,7 @@
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
 ## 14 juin 2024
-- Correction des vigilances crues. Le site vigicrues.gouv.fr ne répondait plus aux requetes du plugin.
+- Correction des crues. Le site vigicrues.gouv.fr ne répondait plus aux requetes du plugin.
 
 ## 21 décembre 2022
 - Correction URL de récupération des marées. Mise en place d'un délai de 15 minutes entre 2 requêtes au site meteoconsult. Suppression des coordonnées sur les ports lorsque celles ci ne renvoient pas d'horaires de marée. Correction à faire dans le fichier plugins/vigilancemeteo/core/config/PortsMareeInfo.json pour retrouver ces ports. Merci de communiquer vos corrections.
