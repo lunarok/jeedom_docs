@@ -2,6 +2,18 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## 09 octobre 2024
+- crues
+    - Retour au site www.vigicrues.gouv.fr puis à hubeau.eaufrance.fr si vigicrues n'a pas répondu.
+    - Suppression de PHP notice quand la hauteur ou le débit d'eau n'est pas disponible
+
+- pollens
+    - Échelonnement dans l'heure des requêtes à pollens.fr
+    - Suppression de cette maj par le cronHourly Trop d'erreurs à la minute 0.
+    - Message d'erreur de connexion plus détaillé.
+    - Correction dans le template du lien vers le site pollens.fr dans le titre de l'équipement. Une modale vide était ouverte.
+
+
 ## 14 juin 2024
 - Correction des crues. Le site vigicrues.gouv.fr ne répondait plus aux requetes du plugin.
 
