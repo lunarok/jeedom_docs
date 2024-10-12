@@ -2,6 +2,9 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 
+## 12 octobre 2024
+Corrections pour PHP8 Fatal error Uncaught TypeError: Unsupported operand types: string / int
+
 ## 04 avril 2024
 Mise à jour de la template pour Jeedom v4.4.
 
