@@ -4,4 +4,4 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 ## Mise à jour d'octobre
 
-Cette mise à jour intègre la gestion du "ask" dans les scénarios
+Cette mise à jour intègre la gestion du "ask" dans les scénarios.
