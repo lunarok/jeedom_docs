@@ -2,6 +2,10 @@
 
 Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'information dans cette section, c'est qu'elle n'intègre aucune nouveauté majeure. Cela peut être un ajout de documentation, une correction de documentation, des traductions ou bien de la correction de bugs mineurs.
 ***
+#### 11/01/2026
+- Correction des templates pour les nouvelles icones en 64 pixels
+
+***
 #### 07/02/2025 beta
 - Correction de l'accès aux vigilances météo par l'API.
 
