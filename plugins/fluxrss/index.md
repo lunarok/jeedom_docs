@@ -19,7 +19,7 @@ Chaque équipement à 4 paramètres à remplir :
 
   * Description du Flux
 
-  * Nombre d'items du Flux (10,15,20,25,30,50)
+  * Nombre d'items du Flux (1,10,15,20,25,30,50)
 
 
 Après sauvegarde, on aura accès à l'URL du flux RSS
