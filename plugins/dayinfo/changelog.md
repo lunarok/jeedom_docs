@@ -4,11 +4,13 @@ Important : en cas de mise à jour disponible pour laquelle il n'y a pas d'infor
 
 ## Juillet 2026
 Mise à jour des calendriers scolaire, 2026-2027 pour les zones France : A,B et C
+
 Mise à jour des calendriers scolaire, 2026-2027 pour la Belgique
 
 ## Mars 2026
-Divers optimisation du cose pour Jeedom v4.4 et +
-Version Jeedom v4.4 minimu
+Divers optimisation pour Jeedom v4.4 et +
+
+Nécessite la version v4.4 minimum du Core de Jeedom
 
 ## Mai 2022
 Mise à jour des calendriers scolaire, 2022-2023 pour les zones France : A,B et C
